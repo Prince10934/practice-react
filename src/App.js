@@ -1,9 +1,11 @@
 import React from 'react';
-import JSX from './jsx'
+// import JSX from './Components/jsx'
+import Tick from './Components/RenderingElements'
 const App=()=>{
     return (
         <>
-            <JSX/>
+        <Tick/>
+            {/* <JSX/> */}
         </>
     )
 }

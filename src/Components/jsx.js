@@ -15,6 +15,11 @@ const JSX=()=>{
             Hello , {formatUser(user)}
         </h1>
     )
+    // const element=React.createElement(
+    //     'h1',
+    //     {className:'box'},
+    //     'hello world'
+    // )
     return (
         <>
         {element}
